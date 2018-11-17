@@ -4,7 +4,7 @@ class PigLatinizer
     t = text.split("")
     x = t.shift
     t << x + "ay"
-    t.join("")
+    l = t.join("")
     binding.pry
   end
 end
