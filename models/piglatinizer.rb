@@ -6,6 +6,6 @@ class PigLatinizer
   end
 
   def to_piglatin
-    text
+    @text
   end
-end 
+end
