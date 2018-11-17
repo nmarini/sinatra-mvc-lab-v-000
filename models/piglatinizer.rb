@@ -6,6 +6,7 @@ class PigLatinizer
   end
 
   def to_piglatin
-    @text
+    t = @text.split(" ")
+    binding.pry
   end
 end
