@@ -5,6 +5,6 @@ class PigLatinizer
     x = t.shift
     t << x + "ay"
     l = t.join("")
-    binding.pry
+    # binding.pry
   end
 end
