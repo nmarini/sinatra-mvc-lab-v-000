@@ -1,11 +1,11 @@
-class PigLatinizer 
+class PigLatinizer
   attr_accessor :text
 
   def initialize(text)
-    @text = text 
-  end 
+    @text = text
+  end
 
   def to_piglatin
-    
-  end 
+
+  end
 end 
