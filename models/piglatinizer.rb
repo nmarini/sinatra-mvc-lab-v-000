@@ -1,7 +1,7 @@
 class PigLatinizer
 
   def piglatinize(text)
-    t =text.split(" ")
+    t =text.first.split
     binding.pry
   end
 end
