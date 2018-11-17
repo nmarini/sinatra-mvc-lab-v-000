@@ -6,7 +6,6 @@ class PigLatinizer
   end
 
   def to_piglatin
-    t = @text
     binding.pry
   end
 end
